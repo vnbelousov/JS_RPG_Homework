@@ -31,5 +31,3 @@ npm run test:coverage
 - `game.js` — функция `play(players)`.
 - `index.js` — пример запуска.
 - `__tests__/` — автоматические тесты.
-
-Для проверки работы достаточно выполнить `npm start`; для запуска тестов — `npm test`.
