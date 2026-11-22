@@ -1,0 +1,27 @@
+{
+  "name": "js-rpg-homework",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Итоговое домашнее задание по JavaScript: RPG-персонажи и поединки",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "collectCoverageFrom": [
+      "weapon.js",
+      "player.js",
+      "game.js"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "lines": 70
+      }
+    }
+  }
+}
